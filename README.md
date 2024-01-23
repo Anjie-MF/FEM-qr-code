@@ -18,7 +18,7 @@
 
 ### Links
 
-- Live Site URL: [GitHub](https://your-live-site-url.com)
+- Live Site URL: [GitHub]((https://anjie-mf.github.io/FEM-qr-code/)
 - Repo Site URL: [GitHub](https://github.com/Anjie-MF/FEM-qr-code)
 
 ## My process
