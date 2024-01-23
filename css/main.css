@@ -98,13 +98,17 @@ body {
 
 .qr-container {
     background-color: #FFFFFF;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 20px;
     margin: 0;
+    max-width: 20rem;
+    margin: auto;
 }
 
 .qr-container img {
     border-radius: 40px;
+    max-width: 100%;
+    height: auto;
 }
 
 .text-container h1 {
@@ -126,49 +130,4 @@ body {
     text-align: center;
     margin-top: 20px;
     font-size: 1.5rem;
-}
-
-/* ==========================================================================
-   DESKTOP STYLE
-   ========================================================================== */
-
-@media only screen and (min-width: 48em) {
-
-    .qr-container {
-        background-color: #FFFFFF;
-        border-radius: 20px;
-        padding: 20px;
-        margin: auto;
-        width: 25%;
-        display: flex; /*FLEXBOX=VERTICAL CENTERING; GRID=HORIZONTAL CENTERING*/
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .qr-container img {
-        border-radius: 40px;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .text-container {
-        background-color: #FFFFFF;
-    }
-
-    .text-container h1 {
-        font-size: 1.5rem;
-    }
-
-    .text-container p {
-        font-size: 1rem;
-        color: #414144;
-    }
-
-    .attribution {
-        text-align: center;
-        margin-top: 20px;
-        font-size: 1rem;
-    }
-
 }
